@@ -1,0 +1,19 @@
+<!--pages/test/test.wxml-->
+<view hover-class='active' >div标签</view>
+<text>pages/test/test.wxml</text>
+<map name=""></map>
+<view style="border:1px solid #aaa">
+  <input type='text'  placeholder="请输入"/>
+</view>
+<view>
+  <icon type="success" size='60'></icon>
+</view>
+<button catchtap="clickF1">按钮</button>
+<view>
+<input type="text" bindfocus="handleInput" placeholder="请输入"/>
+</view>
+<view>
+  <button bind:tap='getLogin'>登录</button>
+</view>
+
+  
